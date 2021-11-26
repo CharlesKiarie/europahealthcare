@@ -1,0 +1,174 @@
+
+/*------------------------------------------------- */
+/* =  services page */
+/*------------------------------------------------- */
+
+section.services-section {
+	padding: 140px 0;
+	@include retina('../upload/banners/ban1.jpg', 2, cover, center bottom no-repeat);
+	.services-box {
+		padding-bottom: 15px;
+		min-height: 360px;
+		.services-post {
+			margin-bottom: 70px;
+			span, i {
+				color: $primary-color;
+				font-size: 42px;
+				display: inline-block;
+				float: left;
+				padding-top: 5px;
+			}
+			.services-content {
+				margin-left: 100px;
+			}
+			h2 {
+				color: #fff;
+			}
+			p {
+				color: #cccccc;				
+			}
+		}
+	}
+}
+
+section.services-section2 {
+	padding: 100px 0;
+	background: #f9f9f9;
+	.services-box {
+		margin-bottom: 70px;
+		.services-post {
+			margin-bottom: 30px;
+			padding: 45px 65px;
+			background: #fff;
+			
+			h2 {
+				line-height: 42px;
+				margin-bottom: 30px;
+				i, span {
+					display: inline-block;
+					color: $primary-color;
+					font-size: 36px;
+					margin-right: 20px;
+					float: left;
+				}
+			}
+			p {
+				color: $third-color;
+				margin-bottom: 0;		
+			}
+		}
+	}
+	.center-area {
+		p, h1 {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+section.what-we-do {
+	background: #222222;
+	overflow: hidden;
+	position: relative;
+	padding: 70px 0;
+	div.image-holder {
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		top: 0;
+		right: 0;
+		overflow: hidden;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+	.what-we-do-upper {
+		position: relative;
+		z-index: 2;
+		.what-we-box {
+			border: 2px solid #fff;
+			padding: 80px 60px;
+			.inner-content {
+				width: 40%;
+				h1 {
+					color: #fff;
+					margin-bottom: 30px;
+				}
+				p {
+					margin-bottom: 30px;
+					color: $third-color;
+				}
+				ul {
+					@extend .reset-elem;
+					li {
+						display: block;
+						color: #eee;
+						font-size: 13px;
+						font-family: $font-default;
+						line-height: 28px;
+						margin-bottom: 2px;
+					}
+					li:before {
+						content: '\f00c';
+						font-size: 10px;
+						font-family: 'FontAwesome';
+						line-height: 28px;
+						color: $primary-color;
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+section.what-we-do2 {
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+	img {
+		width: 50%;
+		height: auto;
+	}
+	.what-we-do-upper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		.what-we-box {
+			padding-left: 60px;
+			.inner-content {
+				h1 {
+					margin-bottom: 30px;
+				}
+				p {
+					margin-bottom: 30px;
+					color: $third-color;
+				}
+				ul {
+					@extend .reset-elem;
+					li {
+						display: block;
+						color: $text-color;
+						font-size: 13px;
+						font-family: $font-default;
+						line-height: 28px;
+						margin-bottom: 2px;
+					}
+					li:before {
+						content: '\f00c';
+						font-size: 10px;
+						font-family: 'FontAwesome';
+						line-height: 28px;
+						color: $primary-color;
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+

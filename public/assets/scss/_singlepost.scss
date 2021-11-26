@@ -1,0 +1,212 @@
+
+/*------------------------------------------------- */
+/* =  Single Post */
+/*------------------------------------------------- */
+
+section.blog-section {
+    .blog-box.single-post {
+        img {
+            margin-bottom: 30px;
+            width: 100%;
+            height: auto;
+        }
+        .post-content {
+            margin-top: -30px;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+        .share-tags-box {
+            padding-top: 30px;
+            border-top: 1px solid #eeeeee;
+            margin-bottom: 30px;
+            ul.share-list {
+                @extend .reset-elem;
+                li {
+                    display: inline-block;
+                    margin-right: 1px;
+                    margin-bottom: 1px;
+                    span {
+                        color: $text-color;
+                        font-size: 14px;
+                        font-family: $font-default;
+                        margin-right: 10px;
+                    }
+                    a {
+                        padding: 6px 12px;
+                        color: #fff;
+                        font-size: 12px;
+                        font-family: $font-default;
+                    }
+                    a:hover {
+                        opacity: 0.7;
+                    }
+                    a.facebook {
+                        background: #474ad5;
+                    }
+                    a.twitter {
+                        background: #56a3d8;
+                    }
+                    a.google {
+                        background: #e45b5b;
+                    }
+                }
+            }
+            ul.tags-list {
+                @extend .reset-elem;
+                text-align: right;
+                li {
+                    display: inline-block;
+                    margin-right: 1px;
+                    margin-bottom: 1px;
+                    span {
+                        color: $text-color;
+                        font-size: 13px;
+                        font-family: $font-default;
+                        margin-right: 6px;
+                    }
+                    a {
+                        color: $third-color;
+                        font-size: 12px;
+                        font-family: $font-alternative;
+                    }
+                    a:hover {
+                        color: $title-color;
+                        text-decoration: underline !important;
+                    }
+                }
+            }
+        }
+        ul.share-project {
+            @extend .reset-elem;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            li {
+                display: inline-block;
+                color: #333333;
+                font-size: 15px;
+                font-family: $font-default;
+                margin-right: 12px;
+                a {
+                    font-size: 14px;
+                    color: #bdbdbd;
+                }
+                a:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+.center-area {
+    text-align: center;
+}
+
+.comment-area-box {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 1px solid #eeeeee;
+    > ul {
+        @extend .reset-elem;
+        padding-top: 10px;
+        li {
+            list-style: none;
+            .comment-box {
+                overflow: hidden;
+                margin-bottom: 55px;
+                img {
+                    max-width: 70px;
+                    float: left;
+                    @include border-radius(50%);
+                }
+                .comment-content {
+                    margin-left: 100px;
+                    h4 {
+                        color: $title-color;
+                        font-size: 14px;
+                        font-family: $font-default;
+                        font-weight: 600;
+                        margin: 0;
+                    }
+                    span, a {
+                        font-size: 12px;
+                        color: $third-color;
+                        font-family: $font-alternative;
+                        display: inline-block;
+                        margin: 0 0 16px;
+                    }
+                    a {
+                        font-family: $font-default;
+                        float: right;
+                        margin-top: -10px;
+                    }
+                    a:hover {
+                        color: $primary-color;
+                    }
+                    p {
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+    ul.depth {
+        .comment-box {
+            padding-left: 100px;
+        }
+    }
+}
+
+.contact-form-box {
+    h2 {
+        margin-bottom: 0;
+    }
+    > span {
+        display: block;
+        font-size: 12px;
+        color: $third-color;
+        font-family: $font-alternative;
+        display: inline-block;
+        font-style: italic;
+        margin: 0 0 25px;
+    }
+    #comment-form {
+        margin: 0;
+        input[type="text"],
+        textarea {
+           width: 100%;
+            padding: 10px 20px;
+            background: #fff;
+            color: $third-color;
+            font-size: 13px;
+            font-family: $font-default;
+            outline: none;
+            border: 1px solid #eeeeee;
+            margin: 0 0 30px;
+            @include transition(0.2s);
+            @include border-radius(2px);
+        }
+        textarea {
+            height: 120px;
+            margin-bottom: 30px;
+        }
+        input[type="submit"] {
+            color: #fff;
+            font-size: 12px;
+            font-family: $font-default;
+            text-transform: uppercase;
+            padding: 12px 45px;
+            background: $primary-color;
+            font-weight: 500;
+            @include border-radius(24px);
+            @include transition(0.2s);
+            margin: 0;
+            border: none;
+        }
+        input[type="submit"]:hover {
+            color: #fff;
+            background: $second-color;
+        }
+    }
+}

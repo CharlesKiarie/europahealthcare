@@ -1,0 +1,149 @@
+
+
+/*------------------------------------------------- */
+/* =  Footer */
+/*------------------------------------------------- */
+
+footer {
+	padding-top: 100px;
+	background: #222222;
+	.up-footer {
+		padding-bottom: 30px;
+		.footer-widget {
+			margin-bottom: 60px;
+			h3 {
+				color: #fff;
+				font-weight: 600 !important;
+				font-size: 18px;
+				margin-bottom: 40px;
+			}
+			h2 {
+				color: #fff;
+				font-size: 24px;
+				margin-bottom: 40px;
+			}
+			img {
+				margin-top: 8px;
+				margin-bottom: 40px;
+			}
+			p {
+				color: #757575;
+				margin-bottom: 20px;
+				span {
+					color: #bdbdbd;
+				}
+			}
+			ul.social-icons {
+				@extend .reset-elem;
+				li {
+					display: inline-block;
+					margin-right: 6px;
+					a {
+						color: #fff;
+						width: 40px;
+						height: 40px;
+						border: 2px solid #757575;
+						@include border-radius(50%);
+						line-height: 36px;
+						text-align: center;
+						background: transparent;
+						font-size: 14px;
+					}
+					a:hover {
+						border: 2px solid $third-color;
+						background: $third-color;
+					}
+				}
+			}
+			ul.recent-posts {
+				@extend .reset-elem;
+				li {
+					display: block;
+					margin-bottom: 20px;
+					h2 {
+						font-size: 13px;
+						color: $third-color;
+						font-family: $font-alternative;
+						font-weight: 400;
+						margin-bottom: 1px;
+						a {
+							color: $third-color;
+						}
+						a:hover {
+							color: $primary-color;
+						}
+					}
+					> a {
+						color: #777777;
+						font-size: 13px;
+						font-family: $font-default;
+					}
+					> a:hover {
+						opacity: 0.7;
+					}
+				}
+				li:last-child {
+					margin-bottom: 0;
+				}
+			}
+			ul.instagram-list {
+				@extend .reset-elem;
+				li {
+					display: inline-block;
+					margin-bottom: 14px;
+					margin-right: 10px;
+					a img {
+						max-width: 72px;
+						height: auto;
+						margin: 0;
+					}
+				}
+			}
+			form.subscribe {
+				input[type="text"] {
+	                padding: 12px 20px;
+	                border: 1px solid transparent;
+	                outline: none;
+	                background: #fff;
+	                @include border-radius(0px);
+	                width: 100%;
+	                color: $third-color;
+	                font-size: 13px;
+	                font-family: $font-alternative;
+	                font-weight: 400;
+	                margin: 0;
+	            }
+	            input[type="submit"] {
+	            	float: right;
+	            	margin-top: -45px;
+	                color: #fff;
+	                font-size: 13px;
+	                font-family: $font-alternative;
+	                padding: 12px 30px 12px;
+	                background: $primary-color;
+	                font-weight: 400;
+	                @include border-radius(0px);
+	                @include transition(0.2s);
+	                outline: none;
+	                border: 1px solid transparent;
+	                position: relative;
+	                z-index: 2;
+	                cursor: pointer;
+	            }
+	            input[type="submit"]:hover {
+	                background: #fff;
+	                color: $primary-color;
+	            }
+			}
+		}
+		.social-widget h3 {
+			margin-bottom: 25px;
+		}
+	}
+	p.copyright-line {
+		text-align: center;
+		padding: 30px 0;
+		color: #757575;
+		background: #1e1e1e;
+	}
+}

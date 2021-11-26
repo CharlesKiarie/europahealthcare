@@ -1,0 +1,27 @@
+
+/*------------------------------------------------- */
+/* =  Statistic sections*/
+/*------------------------------------------------- */
+
+section.statistic-section {
+    padding: 100px 0;
+    @include retina('../upload/banners/ban4.jpg', 2, cover, center center no-repeat);
+    .statistic-post {
+        margin-bottom: 30px;
+        span.lnr, i {
+            color: #fff;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #fff;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+}

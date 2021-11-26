@@ -1,0 +1,56 @@
+
+/*------------------------------------------------- */
+/* =  About sections */
+/*------------------------------------------------- */
+
+section.about-section {
+	padding: 100px 0;
+	position: relative;
+	background: #f9f9f9;
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+	.about-box {
+		padding-bottom: 30px;
+		.about-post {
+			margin-bottom: 50px;
+			img {
+				width: 100%;
+				height: auto;
+				margin-bottom: 20px;
+			}
+			h2 {
+				margin-bottom: 40px;
+				font-size: 24px;
+			}
+		}
+		.about-post-image {
+			margin-bottom: 30px;
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+	.skills-box {
+		padding-top: 30px;
+        .skills-progress {
+            > p {
+                margin-bottom: 15px;
+                font-family: $font-default;
+            }
+            div.meter {
+                height: 4px;
+                background: #eeeeee;
+                margin-bottom: 40px;
+                @include border-radius(3px);
+                overflow: hidden;
+                p {
+                    height: 100%;
+                    background: $primary-color;
+                }
+            }
+        }
+    }
+}
