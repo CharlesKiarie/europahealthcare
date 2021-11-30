@@ -1,4 +1,5 @@
 import React from 'react';
+import useScrollTop from '../utils/useScrollTop';
 import ContactBanner from '../components/ContactBanner';
 import Faq from '../components/Faq';
 import Footer from '../components/Footer';
@@ -9,6 +10,8 @@ import ProductOffers from '../components/ProductOffers';
 import Quote from '../components/Quote';
 
 function Home() {
+    useScrollTop();
+
     return (
         <div>
             <Nav/>

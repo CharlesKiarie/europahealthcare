@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useScrollTop from '../utils/useScrollTop';
 
 
 function PageNotFound() {
+    useScrollTop();
+
     return (
         <section className="what-we-do four-fullwidth">
         

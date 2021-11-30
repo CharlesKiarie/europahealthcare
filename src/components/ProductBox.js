@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import ProductItem from './ProductItem';
 import products from '../assets/data';
 
@@ -85,7 +85,6 @@ function ProductBox() {
 						<div className="blog-box">
 
 							<ProductItem products={productItems}/>
-							{/* <ProductItem products={products}/> */}
 						</div>
 					</div>
 				</div>
