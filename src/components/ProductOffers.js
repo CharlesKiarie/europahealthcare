@@ -21,8 +21,8 @@ function ProductOffers() {
 			</div>
 			<div className="portfolio-box">
 				<OwlCarousel className='owl-theme container' center loop autoplay>
-				<div className="product-item">
-						<div className="project-post">
+				<div className="item">
+						<div className="project-post product-item">
 							<img src={dermaImg} alt=""/>
 							<div className="project-content">
 								<h2><Link to="/products">Dermatological products</Link></h2>
