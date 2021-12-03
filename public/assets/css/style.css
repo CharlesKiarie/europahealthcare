@@ -106,8 +106,7 @@ header {
 header.active {
   padding-bottom: 90px; }
   header.active .navbar {
-    background: #232323 !important;
-    height: 90px; }
+    background: #232323 !important;}
 
 .navbar-nav {
   transition: all 0.2s ease-in-out;
@@ -625,7 +624,7 @@ section.page-banner-section.contact-banner {
 /* =  testimonial section
 /*------------------------------------------------- */
 section.testimonial-section {
-  padding: 120px 0 140px;
+  padding-top: 120px;
   background: #fff;
   text-align: center; }
   section.testimonial-section i {
@@ -975,7 +974,7 @@ section.portfolio-section {
     section.portfolio-section .portfolio-box .project-post {
       padding-bottom: 20px;
       float: left;
-      width: 25%;
+      /* width: 25%; */
       position: relative; }
       section.portfolio-section .portfolio-box .project-post img {
         width: 100%;

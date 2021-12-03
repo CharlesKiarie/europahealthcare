@@ -30,6 +30,15 @@ section.news-section {
     height: 100vh;
 }
 
+.container-fluid {
+    margin-left: 170px;
+}
+
+header.active .navbar {
+    background: #232323 !important;
+    height: 50px; 
+}
+
 @media (max-width: 991px) {
     section.testimonial-section {
         padding: 50px;
@@ -37,6 +46,28 @@ section.news-section {
 
     #myVideo {
        width: max-content;
+    }
+
+    .container-fluid {
+        margin-left: auto;
+    }
+
+    header.active .navbar {
+        background: #232323 !important;
+        height: 90px; 
+    }
+
+    .owl-stage {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: baseline !important ;
+        flex-wrap: nowrap !important;
+        align-content: center !important; 
+    }
+
+    .owl-item, .project-post {
+        width: 400px !important;
+        margin-left: 5px !important;
     }
 }
 
@@ -54,6 +85,15 @@ section.news-section {
         background: #232323 !important;
     }
 
+    header.active .navbar {
+        background: #232323 !important;
+        height: 90px; 
+    }
+
+    .container-fluid {
+        margin-left: auto;
+    }
+
     section.testimonial-section {
         padding: 50px;
     }
@@ -65,6 +105,21 @@ section.news-section {
     .title-section h1 {
         font-size: 30px;
     }
+
+    .owl-stage {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: baseline !important ;
+        flex-wrap: nowrap !important;
+        align-content: center !important; 
+    }
+
+    .owl-item, .project-post {
+        width: 400px !important;
+        margin-left: 5px !important;
+    }
+
+    
 }
 
 
@@ -87,8 +142,17 @@ section.news-section {
     background: #232323 !important;
     }
 
+    header.active .navbar {
+        background: #232323 !important;
+        height: 90px; 
+    }
+
+    .container-fluid {
+        margin-left: auto;
+    }
+
     section.testimonial-section {
-        padding: 60px;
+        align-items: center;
     }
 
     #myVideo {
@@ -97,6 +161,23 @@ section.news-section {
 
     .title-section h1 {
         font-size: 30px;
+    }
+
+    .owl-stage {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: baseline !important ;
+        flex-wrap: nowrap !important;
+        align-content: center !important; 
+    }
+
+    .owl-item, .product-item {
+        width: 300px !important;
+        margin-left: 5px !important;
+    }
+
+    .owl-dots {
+        display: none;
     }
 }
 

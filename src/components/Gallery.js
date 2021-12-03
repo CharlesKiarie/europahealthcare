@@ -19,85 +19,85 @@ function Gallery() {
             </div>
 
 				<div className="portfolio-box iso-call">
-					<div className="project-post design branding">
+					<div className="project-post">
 						<img src={galleryImg1} alt=""/>
 						<div className="project-content">
 							
 						</div>
 						<div className="hover-box">
-							<a href={galleryImg1} className="zoom"><i className="fa fa-search"></i></a>
+							<a href={galleryImg1} target="_blank" className="zoom" rel="noreferrer"><i className="lnr lnr-eye"></i></a>
 						</div>
 					</div>
-					<div className="project-post design photography">
+					<div className="project-post">
 						<img src={galleryImg13} alt=""/>
 						<div className="project-content">
 							
 						</div>
 						<div className="hover-box">
-							<a href={galleryImg13} className="zoom"><i className="fa fa-search"></i></a>
+							<a href={galleryImg13} target="_blank" className="zoom" rel="noreferrer"><i className="lnr lnr-eye"></i></a>
 						</div>
 					</div>
-					<div className="project-post photography development">
+					<div className="project-post">
 						<img src={galleryImg3} alt=""/>
 						<div className="project-content">
 							
 						</div>
 						<div className="hover-box">
-							<a href={galleryImg3} className="zoom"><i className="fa fa-search"></i></a>
+							<a href={galleryImg3} target="_blank" className="zoom" rel="noreferrer"><i className="lnr lnr-eye"></i></a>
 						</div>
 					</div>
-					<div className="project-post design development">
+					<div className="project-post">
 						<img src={galleryImg3} alt=""/>
 						<div className="project-content">
 							
 						</div>
 						<div className="hover-box">
-							<a href={galleryImg3} className="zoom"><i className="fa fa-search"></i></a>
+							<a href={galleryImg3} target="_blank" className="zoom" rel="noreferrer"><i className="lnr lnr-eye"></i></a>
 						</div>
 					</div>
-					<div className="project-post photography development">
+					<div className="project-post">
 						<img src={galleryImg6} alt=""/>
 						<div className="project-content">
 							
 						</div>
 						<div className="hover-box">
-							<a href={galleryImg6} className="zoom"><i className="fa fa-search"></i></a>
+							<a href={galleryImg6} target="_blank" className="zoom" rel="noreferrer"><i className="lnr lnr-eye"></i></a>
 						</div>
 					</div>
-					<div className="project-post development">
+					<div className="project-post">
 						<img src={galleryImg7} alt=""/>
 						<div className="project-content">
 							
 						</div>
 						<div className="hover-box">
-							<a href={galleryImg7} className="zoom"><i className="fa fa-search"></i></a>
+							<a href={galleryImg7} target="_blank" className="zoom" rel="noreferrer"><i className="lnr lnr-eye"></i></a>
 						</div>
 					</div>
-					<div className="project-post branding development">
+					<div className="project-post">
 						<img src={galleryImg4} alt=""/>
 						<div className="project-content">
 							
 						</div>
 						<div className="hover-box">
-							<a href={galleryImg4} className="zoom"><i className="fa fa-search"></i></a>
+							<a href={galleryImg4} target="_blank" className="zoom" rel="noreferrer"><i className="lnr lnr-eye"></i></a>
 						</div>
 					</div>
-					<div className="project-post design">
+					<div className="project-post">
 						<img src={galleryImg2} alt=""/>
 						<div className="project-content">
 							
 						</div>
 						<div className="hover-box">
-							<a href={galleryImg2} className="zoom"><i className="fa fa-search"></i></a>
+							<a href={galleryImg2} target="_blank" className="zoom" rel="noreferrer"><i className="lnr lnr-eye"></i></a>
 						</div>
 					</div>
-					<div className="project-post photography">
+					<div className="project-post">
 						<img src={galleryImg14} alt=""/>
 						<div className="project-content">
 							
 						</div>
 						<div className="hover-box">
-							<a href={galleryImg14} className="zoom"><i className="fa fa-search"></i></a>
+							<a href={galleryImg14} target="_blank" className="zoom" rel="noreferrer"><i className="lnr lnr-eye"></i></a>
 						</div>
 					</div>
 				</div>
